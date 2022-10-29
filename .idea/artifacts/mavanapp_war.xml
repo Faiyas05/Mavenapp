@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mavanapp:war">
+    <output-path>$PROJECT_DIR$/mavanapp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mavanapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mavanapp-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mavanapp:war exploded" />
+    </root>
+  </artifact>
+</component>
